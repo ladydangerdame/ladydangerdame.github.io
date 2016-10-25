@@ -1,3 +1,9 @@
+h1 {
+  color: white;
+  background-color: grey;
+  text-align: center;
+}
+
 body {
   background-image: url("http://i.imgur.com/UnkE4GZ.jpg");
 }
@@ -7,3 +13,17 @@ img {
   border: 7px solid white;
   border-radius: 20px;
 }
+
+ #page-wrapper {
+   text-align: center;
+ }
+
+ .first {
+   color: white;
+ }
+ .second {
+   color: pink;
+ }
+ .third {
+   color: white;
+ }
