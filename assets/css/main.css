@@ -5,48 +5,57 @@ h1 {
 }
 
 body {
-  background-image: url("http://i.imgur.com/UnkE4GZ.jpg");
+  text-align: center;
+  background-color: white;
+  color: white;
+  font-family: Georgia;
 }
 
-img {
+.me {
   margin: 40px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
+  border: 7px dashed white;
+  border-radius: 100px;
 }
 
  #page-wrapper {
    text-align: center;
  }
 
- .first {
-   background-color: white;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    color: black;
- }
- .second {
-   background-color: white;
-    float: right;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    color: pink;
- }
- .third {
-   background-color: white;
-   width: 320px;
-   padding: 10px;
-   border: 5px solid gray;
-   margin: 0;
-   color: black;
- }
- .fourth {
-   background-color: white;
-    width: 320px;
-    padding: 10px;
-    border: 5px solid gray;
-    margin: 0;
-    color: pink;
+ .grid {
+  width: 750px;
+  height: 450px;
+}
+
+.one-one {
+  display: block;
+  float: left;
+  width: 350px;
+  height: 200px;
+  background-color: #AEE54F;
+}
+
+.one-two {
+  display: block;
+  float: right;
+  width: 350px;
+  height: 200px;
+  background-color: #91BF41;
+}
+
+.two-one {
+  display: inline-block;
+  float: left;
+  margin-top: 50px;
+  width: 350px;
+  height: 200px;
+  background-color: #304016;
+}
+
+.two-two {
+  display: inline-block;
+  float: right;
+  margin-top: 50px;
+  width: 350px;
+  height: 200px;
+  background-color: #607F2C;
+}
