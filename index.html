@@ -1,82 +1,159 @@
-<!-- <!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>First Training</title>
 
-  <meta charset="utf-8" />
-  <meta name="description" content="Personal Site">
-  <meta name="author" content="GA Student">
-  <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Emily Johnson {Lady Danger Dame}</title>
 
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <script type="text/javascript" src="assets/js/app.js"></script>
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
+    <!-- Theme CSS -->
+    <link href="assets/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
-  <div id="page-wrapper">
-    <h1>Emily Claire Johnson</h1>
-    <img class="me"src="http://i.imgur.com/47iwYyt.jpg">
-  </div>
 
-  <div class="grid">
-     <div class="one-one">
-       <p> My work </p>
-        <ul>
-          <li>
-            <a href="https://github.com/ladydangerdame/problem-set-js-basics">Javascript Basics Homework</a>
-          </li>
-          <li>
-            <a href="https://github.com/ladydangerdame/dev-tools-training">Dev Tools Training Homework</a>
-          </li>
-          <li>
-            <a href="https://github.com/ladydangerdame/js-control-flow-training/tree/master/starter-code">JS Control Flow Homework</a>
-          </li>
-          <li>
-            <a href="https://github.com/ladydangerdame/tic-tac-toe">Tic Tac Toe</a>
-          </li>
-          <li>
-            <a href="https://github.com/ladydangerdame/functions-exercises">Functions Homework</a>
-          </li>
-        </ul>
-     </div>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-     <div class="one-two">
-     </div>
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-ice-lolly-tasted"></i> <span class="light">Lady</span> Danger Dame
+                </a>
+            </div>
 
-     <div class="two-one">
-     </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
-     <div class="two-two">
-     </div>
-   </div>
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Emily Claire Johnson</h1>
+                        <p class="intro-text">I am a Full Stack Web Developer
+                            <br>With an alter ego: Lady Danger Dame</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-   <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi" method="post">
-   <div>
-     <label for="name">Your name:</label>
-     <input type="text" id="name" name="user_name">
-   </div>
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About Emily</h2>
+                <p>Full Stack web developer with a love for problem solving. I love languages, both human and programming. Translating logic into code and code back into logic is incredibly rewarding.</p>
+                <p>East Coast native having lived primarily in the Philadelphia area, I am loving the West Coast!</p>
+                <p>My loves in life include: dogs, roller derby, painting, drawing, and poetry.</p>
+            </div>
+        </div>
+    </section>
 
-   <div>
-     <label for="mail">E-mail:</label>
-     <input type="email" id="mail" name="user_email">
-   </div>
+    <!-- Download Section -->
+    <section id="projects" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>My Work</h2>
+                    <p>Project cards go here</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-   <div>
-     <label for="msg">Message:</label>
-     <textarea id="msg" name="user_message"></textarea>
-   </div>
-  
-   <div class="button">
-     <button type="submit">This doesn't work yet, leave me alone</button>
-   </div>
- </form>
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Me!</h2>
+                <p>Feel free to email me to say hello or ask questions. </p>
+                <p><a href="mailto:emily@ladydangerda.me">emily@ladydangerda.me</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/ladydangerdame" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ladydangerdame" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ladydangerdame/" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; Your Website 2016</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+
+    <!-- Theme JavaScript -->
+    <script src="js/app.js"></script>
 
 </body>
-</html> -->
 
-STAY TUNED! I'll be right back! 
+</html>
