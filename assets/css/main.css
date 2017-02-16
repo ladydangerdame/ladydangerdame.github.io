@@ -28,6 +28,11 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+#about img {
+    border-radius: 50%;
+    width: 400px;
+    height: auto;
+}
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;
@@ -36,7 +41,7 @@ p {
   }
 }
 a {
-  color: #42DCA3;
+  color: #fa9300;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -44,7 +49,7 @@ a {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #1d9b6c;
+  color: #d98308;
 }
 .light {
   font-weight: 400;
@@ -57,13 +62,14 @@ a:focus {
   background-color: black;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: grey;
   background-color: rgba(255, 255, 255, 0.2);
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:focus,
 .navbar-custom .navbar-toggle:active {
   outline: none;
+
 }
 .navbar-custom .navbar-brand {
   font-weight: 700;
@@ -72,7 +78,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom a {
-  color: white;
+  color: #fa9300;
 }
 .navbar-custom .nav li a {
   -webkit-transition: background 0.3s ease-in-out;
@@ -80,7 +86,7 @@ a:focus {
   transition: background 0.3s ease-in-out;
 }
 .navbar-custom .nav li a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(89, 83, 83, 0.8);
   outline: none;
   background-color: transparent;
 }
@@ -120,8 +126,8 @@ a:focus {
   height: auto;
   padding: 100px 0;
   text-align: center;
-  color: white;
-  background: url(../imgs/slateyellow.jpg) no-repeat bottom center scroll;
+  color: black;
+  background: url(../imgs/creammustard.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -138,6 +144,17 @@ a:focus {
 .intro .intro-body .intro-text {
   font-size: 18px;
 }
+
+.container img{
+  width: 100%;
+  height: auto;
+}
+
+.project {
+  position: relative;
+}
+
+
 @media (min-width: 768px) {
   .intro {
     height: 100%;
@@ -145,7 +162,7 @@ a:focus {
   }
   .intro .intro-body .brand-heading {
     font-family: 'Raleway', sans-serif;
-    text-shadow: 1px 1px 2px rgb(35, 36, 33); 
+    text-shadow: 1px 1px 2px rgb(35, 36, 33);
     font-size: 80px;
   }
   .intro .intro-body .intro-text {
@@ -221,14 +238,20 @@ a:focus {
 }
 .download-section {
   width: 100%;
+  height: auto;
   padding: 50px 0;
   color: white;
-  background: url(../imgs/greycomp.jpg) no-repeat center center scroll;
+  background: url(../imgs/slateyellow.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.download-section img{
+  width: 100%;
+  height: 250px;
 }
 #map {
   width: 100%;
@@ -256,16 +279,16 @@ a:focus {
   border-radius: 0;
 }
 .btn-default {
-  border: 1px solid #42DCA3;
-  color: #42DCA3;
+  border: 1px solid #fa9300;
+  color: #fa9300;
   background-color: transparent;
 }
 .btn-default:hover,
 .btn-default:focus {
-  border: 1px solid #42DCA3;
+  border: 1px solid #fa9300;
   outline: none;
   color: black;
-  background-color: #42DCA3;
+  background-color: #fa9300;
 }
 ul.banner-social-buttons {
   margin-top: 0;
