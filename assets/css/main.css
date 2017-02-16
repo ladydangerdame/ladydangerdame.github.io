@@ -119,7 +119,7 @@ a:focus {
     background: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
-  
+
 }
 .intro {
   display: table;
@@ -235,12 +235,12 @@ a:focus {
   }
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .download-section {
   width: 100%;
   height: auto;
-  padding: 50px 0;
+  padding: 100px 0;
   color: white;
   background: url(../imgs/slateyellow.jpg) no-repeat center center scroll;
   background-color: black;
@@ -261,7 +261,7 @@ a:focus {
 }
 @media (min-width: 767px) {
   .content-section {
-    padding-top: 250px;
+    padding-top: 70px;
   }
   .download-section {
     padding: 100px 0;
